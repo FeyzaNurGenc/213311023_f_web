@@ -39,15 +39,16 @@
     <!-- This script adds the flutter initialization JS code -->
   </head>
   <body>
-    <script
-      src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"
-      defer
-    ></script>
-    <script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
+    <script type="module">
       var firebaseConfig = {
+        https: "https://not-uygulamasi-7bd28.firebase.io.com",
         apiKey: "AIzaSyCQ3IRYJQN0lcXsYQjCIjxtoqfAwyFuAb4",
         authDomain: "not-uygulamasi-7bd28.firebaseapp.com",
         projectId: "not-uygulamasi-7bd28",
+        storageBucket: "not-uygulamasi-7bd28.appspot.com",
+        messagingSenderId: "918879880444",
+        appId: "1:918879880444:android:a40e533dedc20e10710379",
       };
 
       firebase.initializeApp(firebaseConfig);
